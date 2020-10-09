@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31D7B22EA9313EB4C4089B15 /* Pods_SendingMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040FE6DA57206A72405CB0D5 /* Pods_SendingMoney.framework */; };
+		6E452419252F3FCE00B9FEF2 /* TransferInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E452418252F3FCE00B9FEF2 /* TransferInformationTableViewCell.swift */; };
+		6E61A84325300B0E0046A255 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E61A84225300B0E0046A255 /* CoreDataStack.swift */; };
+		6E70E7B3252B151C00A6BF56 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E70E7B2252B151C00A6BF56 /* RegistrationViewController.swift */; };
+		6E70E7B5252B1C2400A6BF56 /* RegistrationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E70E7B4252B1C2400A6BF56 /* RegistrationTableViewCell.swift */; };
+		6E98CF382529BCBE0056E2DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E98CF372529BCBE0056E2DD /* AppDelegate.swift */; };
+		6E98CF3A2529BCBE0056E2DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E98CF392529BCBE0056E2DD /* SceneDelegate.swift */; };
+		6E98CF3C2529BCBE0056E2DD /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E98CF3B2529BCBE0056E2DD /* SignInViewController.swift */; };
+		6E98CF3F2529BCBE0056E2DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E98CF3D2529BCBE0056E2DD /* Main.storyboard */; };
+		6E98CF422529BCBE0056E2DD /* SendingMoney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E98CF402529BCBE0056E2DD /* SendingMoney.xcdatamodeld */; };
+		6E98CF442529BCBF0056E2DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E98CF432529BCBF0056E2DD /* Assets.xcassets */; };
+		6E98CF472529BCBF0056E2DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E98CF452529BCBF0056E2DD /* LaunchScreen.storyboard */; };
+		6E98CF4F2529D8BE0056E2DD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E98CF4E2529D8BE0056E2DD /* UserModel.swift */; };
+		6E98CF512529DA410056E2DD /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E98CF502529DA410056E2DD /* UserSettings.swift */; };
+		6EB13AE5252E06DA004714C5 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB13AE4252E06DA004714C5 /* AccountViewController.swift */; };
+		6EBC97A0252EEE2600612566 /* AccountInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC979F252EEE2600612566 /* AccountInformationTableViewCell.swift */; };
+		6EBC97A2252F0F0C00612566 /* SendMoneyToContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC97A1252F0F0C00612566 /* SendMoneyToContactTableViewController.swift */; };
+		6EBC97A4252F11E600612566 /* SendMoneyToContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC97A3252F11E600612566 /* SendMoneyToContactTableViewCell.swift */; };
+		6EBC97B1252F301D00612566 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC97AD252F301D00612566 /* User+CoreDataClass.swift */; };
+		6EBC97B2252F301D00612566 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC97AE252F301D00612566 /* User+CoreDataProperties.swift */; };
+		6EBC97B3252F301D00612566 /* Operation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC97AF252F301D00612566 /* Operation+CoreDataClass.swift */; };
+		6EBC97B4252F301D00612566 /* Operation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC97B0252F301D00612566 /* Operation+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040FE6DA57206A72405CB0D5 /* Pods_SendingMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendingMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E452418252F3FCE00B9FEF2 /* TransferInformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransferInformationTableViewCell.swift; path = SendingMoney/Controller/Cell/TransferInformationTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		6E61A84225300B0E0046A255 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		6E70E7B2252B151C00A6BF56 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		6E70E7B4252B1C2400A6BF56 /* RegistrationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewCell.swift; sourceTree = "<group>"; };
+		6E98CF342529BCBE0056E2DD /* SendingMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendingMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E98CF372529BCBE0056E2DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E98CF392529BCBE0056E2DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E98CF3B2529BCBE0056E2DD /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		6E98CF3E2529BCBE0056E2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E98CF412529BCBE0056E2DD /* SendingMoney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SendingMoney.xcdatamodel; sourceTree = "<group>"; };
+		6E98CF432529BCBF0056E2DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E98CF462529BCBF0056E2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E98CF482529BCBF0056E2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E98CF4E2529D8BE0056E2DD /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		6E98CF502529DA410056E2DD /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		6EB13AE4252E06DA004714C5 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		6EBC979F252EEE2600612566 /* AccountInformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInformationTableViewCell.swift; sourceTree = "<group>"; };
+		6EBC97A1252F0F0C00612566 /* SendMoneyToContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyToContactTableViewController.swift; sourceTree = "<group>"; };
+		6EBC97A3252F11E600612566 /* SendMoneyToContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyToContactTableViewCell.swift; sourceTree = "<group>"; };
+		6EBC97AD252F301D00612566 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6EBC97AE252F301D00612566 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6EBC97AF252F301D00612566 /* Operation+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operation+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6EBC97B0252F301D00612566 /* Operation+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operation+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F533B331853682DBCD9FB144 /* Pods-SendingMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendingMoney.debug.xcconfig"; path = "Target Support Files/Pods-SendingMoney/Pods-SendingMoney.debug.xcconfig"; sourceTree = "<group>"; };
+		F75C623639BC7BAC77F43655 /* Pods-SendingMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendingMoney.release.xcconfig"; path = "Target Support Files/Pods-SendingMoney/Pods-SendingMoney.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E98CF312529BCBE0056E2DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D7B22EA9313EB4C4089B15 /* Pods_SendingMoney.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E98CF2B2529BCBE0056E2DD = {
+			isa = PBXGroup;
+			children = (
+				6E98CF362529BCBE0056E2DD /* SendingMoney */,
+				6E98CF352529BCBE0056E2DD /* Products */,
+				6EA1D9CF25307C8300048ACE /* Frameworks */,
+				CBB089DB7E9A24231E3B80C9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6E98CF352529BCBE0056E2DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E98CF342529BCBE0056E2DD /* SendingMoney.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E98CF362529BCBE0056E2DD /* SendingMoney */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC97BC252F327E00612566 /* View */,
+				6EBC97B8252F31CA00612566 /* Controller */,
+				6EBC97B7252F315300612566 /* Model */,
+				6E98CF372529BCBE0056E2DD /* AppDelegate.swift */,
+				6E98CF392529BCBE0056E2DD /* SceneDelegate.swift */,
+				6E98CF482529BCBF0056E2DD /* Info.plist */,
+				6EBC97BB252F324400612566 /* Support */,
+			);
+			path = SendingMoney;
+			sourceTree = "<group>";
+		};
+		6EA1D9CF25307C8300048ACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040FE6DA57206A72405CB0D5 /* Pods_SendingMoney.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EBC97B7252F315300612566 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC97B9252F320E00612566 /* CoreData */,
+				6E98CF4E2529D8BE0056E2DD /* UserModel.swift */,
+				6E98CF502529DA410056E2DD /* UserSettings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EBC97B8252F31CA00612566 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC97BA252F322600612566 /* Cell */,
+				6EB13AE4252E06DA004714C5 /* AccountViewController.swift */,
+				6E70E7B2252B151C00A6BF56 /* RegistrationViewController.swift */,
+				6E98CF3B2529BCBE0056E2DD /* SignInViewController.swift */,
+				6EBC97A1252F0F0C00612566 /* SendMoneyToContactTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6EBC97B9252F320E00612566 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC97AD252F301D00612566 /* User+CoreDataClass.swift */,
+				6EBC97AE252F301D00612566 /* User+CoreDataProperties.swift */,
+				6EBC97AF252F301D00612566 /* Operation+CoreDataClass.swift */,
+				6EBC97B0252F301D00612566 /* Operation+CoreDataProperties.swift */,
+				6E61A84225300B0E0046A255 /* CoreDataStack.swift */,
+				6E98CF402529BCBE0056E2DD /* SendingMoney.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6EBC97BA252F322600612566 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC979F252EEE2600612566 /* AccountInformationTableViewCell.swift */,
+				6E70E7B4252B1C2400A6BF56 /* RegistrationTableViewCell.swift */,
+				6E452418252F3FCE00B9FEF2 /* TransferInformationTableViewCell.swift */,
+				6EBC97A3252F11E600612566 /* SendMoneyToContactTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6EBC97BB252F324400612566 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6E98CF432529BCBF0056E2DD /* Assets.xcassets */,
+				6E98CF452529BCBF0056E2DD /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		6EBC97BC252F327E00612566 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E98CF3D2529BCBE0056E2DD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBB089DB7E9A24231E3B80C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F533B331853682DBCD9FB144 /* Pods-SendingMoney.debug.xcconfig */,
+				F75C623639BC7BAC77F43655 /* Pods-SendingMoney.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E98CF332529BCBE0056E2DD /* SendingMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E98CF4B2529BCBF0056E2DD /* Build configuration list for PBXNativeTarget "SendingMoney" */;
+			buildPhases = (
+				EA297D8BC01C8B81356DB8F5 /* [CP] Check Pods Manifest.lock */,
+				6E98CF302529BCBE0056E2DD /* Sources */,
+				6E98CF312529BCBE0056E2DD /* Frameworks */,
+				6E98CF322529BCBE0056E2DD /* Resources */,
+				15D8040E89996386B3DE12EF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendingMoney;
+			productName = SendingMoney;
+			productReference = 6E98CF342529BCBE0056E2DD /* SendingMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E98CF2C2529BCBE0056E2DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Pavel Zveglyanich";
+				TargetAttributes = {
+					6E98CF332529BCBE0056E2DD = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 6E98CF2F2529BCBE0056E2DD /* Build configuration list for PBXProject "SendingMoney" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E98CF2B2529BCBE0056E2DD;
+			productRefGroup = 6E98CF352529BCBE0056E2DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E98CF332529BCBE0056E2DD /* SendingMoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E98CF322529BCBE0056E2DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E98CF472529BCBF0056E2DD /* LaunchScreen.storyboard in Resources */,
+				6E98CF442529BCBF0056E2DD /* Assets.xcassets in Resources */,
+				6E98CF3F2529BCBE0056E2DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15D8040E89996386B3DE12EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SendingMoney/Pods-SendingMoney-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SendingMoney/Pods-SendingMoney-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SendingMoney/Pods-SendingMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA297D8BC01C8B81356DB8F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SendingMoney-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E98CF302529BCBE0056E2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E70E7B5252B1C2400A6BF56 /* RegistrationTableViewCell.swift in Sources */,
+				6E98CF3C2529BCBE0056E2DD /* SignInViewController.swift in Sources */,
+				6E98CF512529DA410056E2DD /* UserSettings.swift in Sources */,
+				6E61A84325300B0E0046A255 /* CoreDataStack.swift in Sources */,
+				6EBC97B1252F301D00612566 /* User+CoreDataClass.swift in Sources */,
+				6EBC97A0252EEE2600612566 /* AccountInformationTableViewCell.swift in Sources */,
+				6EBC97A4252F11E600612566 /* SendMoneyToContactTableViewCell.swift in Sources */,
+				6E98CF422529BCBE0056E2DD /* SendingMoney.xcdatamodeld in Sources */,
+				6E98CF382529BCBE0056E2DD /* AppDelegate.swift in Sources */,
+				6E70E7B3252B151C00A6BF56 /* RegistrationViewController.swift in Sources */,
+				6EBC97B3252F301D00612566 /* Operation+CoreDataClass.swift in Sources */,
+				6E98CF4F2529D8BE0056E2DD /* UserModel.swift in Sources */,
+				6EBC97B2252F301D00612566 /* User+CoreDataProperties.swift in Sources */,
+				6E98CF3A2529BCBE0056E2DD /* SceneDelegate.swift in Sources */,
+				6EBC97B4252F301D00612566 /* Operation+CoreDataProperties.swift in Sources */,
+				6EB13AE5252E06DA004714C5 /* AccountViewController.swift in Sources */,
+				6E452419252F3FCE00B9FEF2 /* TransferInformationTableViewCell.swift in Sources */,
+				6EBC97A2252F0F0C00612566 /* SendMoneyToContactTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E98CF3D2529BCBE0056E2DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E98CF3E2529BCBE0056E2DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E98CF452529BCBF0056E2DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E98CF462529BCBF0056E2DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E98CF492529BCBF0056E2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E98CF4A2529BCBF0056E2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E98CF4C2529BCBF0056E2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F533B331853682DBCD9FB144 /* Pods-SendingMoney.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SendingMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PZ.SendingMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6E98CF4D2529BCBF0056E2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F75C623639BC7BAC77F43655 /* Pods-SendingMoney.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SendingMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PZ.SendingMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E98CF2F2529BCBE0056E2DD /* Build configuration list for PBXProject "SendingMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E98CF492529BCBF0056E2DD /* Debug */,
+				6E98CF4A2529BCBF0056E2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E98CF4B2529BCBF0056E2DD /* Build configuration list for PBXNativeTarget "SendingMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E98CF4C2529BCBF0056E2DD /* Debug */,
+				6E98CF4D2529BCBF0056E2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E98CF402529BCBE0056E2DD /* SendingMoney.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E98CF412529BCBE0056E2DD /* SendingMoney.xcdatamodel */,
+			);
+			currentVersion = 6E98CF412529BCBE0056E2DD /* SendingMoney.xcdatamodel */;
+			path = SendingMoney.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E98CF2C2529BCBE0056E2DD /* Project object */;
+}

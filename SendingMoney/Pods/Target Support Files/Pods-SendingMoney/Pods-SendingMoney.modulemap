@@ -1,0 +1,6 @@
+framework module Pods_SendingMoney {
+  umbrella header "Pods-SendingMoney-umbrella.h"
+
+  export *
+  module * { export * }
+}
